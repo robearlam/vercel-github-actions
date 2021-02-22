@@ -7,7 +7,7 @@ import Link from 'next/link'
 const name = '[Your Name]'
 export const siteTitle = 'Next.js Sample Website'
 
-export default function Layout({ children, home }) {
+export default function Layout ({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
                 />
                 <h1 className={utilStyles.heading2Xl}>{name}</h1>
               </>
-            )
+              )
             : (
               <>
                 <Link href='/'>
@@ -61,7 +61,7 @@ export default function Layout({ children, home }) {
                   </Link>
                 </h2>
               </>
-            )
+              )
         }
       </header>
       <main>{children}</main>
