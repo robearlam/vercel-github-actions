@@ -14,7 +14,7 @@ export default function Home ({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>UPDATED CONTENT</p>
         <p>
-          THIS IS UPDATED CONTENT! {' '}
+          THIS IS UPDATED CONTENT! UPDATED AGAIN!{' '}
           <a href='https://nextjs.org/learn'>our Next.js tutorial</a>.)
         </p>
       </section>
