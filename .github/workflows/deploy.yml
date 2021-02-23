@@ -18,7 +18,7 @@ jobs:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID}}  #Required
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}} #Required 
           alias-domains: |
-            ${{STAGING_DOMAIN}}
+            ${{secrets.STAGING_DOMAIN}}
 
       - uses: amondnet/vercel-action@v20
         id: vercel-production-deployment
